@@ -7,7 +7,7 @@ import save
 
 
 # RabbitMQ connection details (replace with your own)
-connection_parameters = pika.ConnectionParameters(host='35.239.236.31')
+connection_parameters = pika.ConnectionParameters(host='localhost')
 
 
 def save_image(filename):
